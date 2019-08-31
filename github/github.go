@@ -25,11 +25,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sadayuki-matsuno/vuls-config/config"
-	"github.com/future-architect/vuls/errof"
-	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/k0kubun/pp"
+	"github.com/sadayuki-matsuno/vuls-config/config"
+	"github.com/sadayuki-matsuno/vuls-config/util"
+	"github.com/sadayuki-matsuno/vuls-models/models"
+	"github.com/sadayuki-matsuno/vuls-report/errof"
 	"golang.org/x/oauth2"
 )
 

@@ -26,15 +26,14 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/future-architect/vuls/alert"
-	"golang.org/x/xerrors"
-
-	"github.com/sadayuki-matsuno/vuls-config/config"
-	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/google/subcommands"
 	"github.com/gosuri/uitable"
 	"github.com/jroimartin/gocui"
+	"github.com/sadayuki-matsuno/vuls-config/config"
+	"github.com/sadayuki-matsuno/vuls-config/util"
+	"github.com/sadayuki-matsuno/vuls-models/alert"
+	"github.com/sadayuki-matsuno/vuls-models/models"
+	"golang.org/x/xerrors"
 )
 
 var scanResults models.ScanResults

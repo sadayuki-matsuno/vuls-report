@@ -32,8 +32,6 @@ import (
 	"github.com/sadayuki-matsuno/vuls-report/libmanager"
 
 	"github.com/BurntSushi/toml"
-	"github.com/future-architect/vuls/contrib/owasp-dependency-check/parser"
-	"github.com/future-architect/vuls/cwe"
 	"github.com/hashicorp/uuid"
 	gostdb "github.com/knqyf263/gost/db"
 	cvedb "github.com/kotakanbe/go-cve-dictionary/db"
@@ -42,7 +40,9 @@ import (
 	"github.com/sadayuki-matsuno/vuls-config/config"
 	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-config/util"
+	"github.com/sadayuki-matsuno/vuls-models/cwe"
 	"github.com/sadayuki-matsuno/vuls-models/models"
+	"github.com/sadayuki-matsuno/vuls-report/contrib/owasp-dependency-check/parser"
 	"github.com/sadayuki-matsuno/vuls-report/exploit"
 	"github.com/sadayuki-matsuno/vuls-report/github"
 	"github.com/sadayuki-matsuno/vuls-report/gost"
