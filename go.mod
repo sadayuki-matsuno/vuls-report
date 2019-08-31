@@ -27,7 +27,7 @@ require (
 	github.com/nlopes/slack v0.5.0
 	github.com/olekukonko/tablewriter v0.0.2-0.20190607075207-195002e6e56a
 	github.com/parnurzeal/gorequest v0.2.15
-	github.com/sadayuki-matsuno/vuls-models v0.0.0-20190831031338-b243adbbc31c
+	github.com/sadayuki-matsuno/vuls-models v0.0.0-20190831031827-22bdd33b3d4b
 	github.com/sirupsen/logrus v1.4.2
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 )

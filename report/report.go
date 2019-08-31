@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/libmanager"
+	"github.com/sadayuki-matsuno/vuls-report/libmanager"
 
 	"github.com/BurntSushi/toml"
 	"github.com/future-architect/vuls/config"
@@ -38,7 +38,6 @@ import (
 	"github.com/future-architect/vuls/exploit"
 	"github.com/future-architect/vuls/github"
 	"github.com/future-architect/vuls/gost"
-	"github.com/sadayuki-matsuno/vuls-models/models"
 	"github.com/future-architect/vuls/oval"
 	"github.com/future-architect/vuls/util"
 	"github.com/future-architect/vuls/wordpress"
@@ -47,6 +46,7 @@ import (
 	cvedb "github.com/kotakanbe/go-cve-dictionary/db"
 	ovaldb "github.com/kotakanbe/goval-dictionary/db"
 	exploitdb "github.com/mozqnet/go-exploitdb/db"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 	"golang.org/x/xerrors"
 )
 
