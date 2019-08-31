@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/sadayuki-matsuno/vuls-models"
 	"github.com/future-architect/vuls/util"
 	"github.com/gosuri/uitable"
 	"github.com/olekukonko/tablewriter"

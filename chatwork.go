@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/sadayuki-matsuno/vuls-models"
 )
 
 // ChatWorkWriter send report to ChatWork

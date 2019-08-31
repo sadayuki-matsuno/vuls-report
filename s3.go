@@ -34,7 +34,7 @@ import (
 	"golang.org/x/xerrors"
 
 	c "github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/sadayuki-matsuno/vuls-models"
 )
 
 // S3Writer writes results to S3

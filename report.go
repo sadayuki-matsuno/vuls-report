@@ -38,7 +38,7 @@ import (
 	"github.com/future-architect/vuls/exploit"
 	"github.com/future-architect/vuls/github"
 	"github.com/future-architect/vuls/gost"
-	"github.com/future-architect/vuls/models"
+	"github.com/sadayuki-matsuno/vuls-models"
 	"github.com/future-architect/vuls/oval"
 	"github.com/future-architect/vuls/util"
 	"github.com/future-architect/vuls/wordpress"

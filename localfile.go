@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 
 	c "github.com/future-architect/vuls/config"
-	"github.com/future-architect/vuls/models"
+	"github.com/sadayuki-matsuno/vuls-models"
 	"golang.org/x/xerrors"
 )
 
