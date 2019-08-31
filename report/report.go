@@ -28,25 +28,26 @@ import (
 	"strings"
 	"time"
 
+	"github.com/sadayuki-matsuno/vuls-report/cvedict"
 	"github.com/sadayuki-matsuno/vuls-report/libmanager"
 
 	"github.com/BurntSushi/toml"
-	"github.com/sadayuki-matsuno/vuls-config/config"
-	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/future-architect/vuls/contrib/owasp-dependency-check/parser"
 	"github.com/future-architect/vuls/cwe"
-	"github.com/sadayuki-matsuno/vuls-report/exploit"
-	"github.com/sadayuki-matsuno/vuls-report/github"
-	"github.com/sadayuki-matsuno/vuls-report/gost"
-	"github.com/sadayuki-matsuno/vuls-config/util"
-	"github.com/sadayuki-matsuno/vuls-report/wordpress"
 	"github.com/hashicorp/uuid"
 	gostdb "github.com/knqyf263/gost/db"
 	cvedb "github.com/kotakanbe/go-cve-dictionary/db"
 	ovaldb "github.com/kotakanbe/goval-dictionary/db"
 	exploitdb "github.com/mozqnet/go-exploitdb/db"
+	"github.com/sadayuki-matsuno/vuls-config/config"
+	c "github.com/sadayuki-matsuno/vuls-config/config"
+	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/sadayuki-matsuno/vuls-models/models"
+	"github.com/sadayuki-matsuno/vuls-report/exploit"
+	"github.com/sadayuki-matsuno/vuls-report/github"
+	"github.com/sadayuki-matsuno/vuls-report/gost"
 	"github.com/sadayuki-matsuno/vuls-report/oval"
+	"github.com/sadayuki-matsuno/vuls-report/wordpress"
 	"golang.org/x/xerrors"
 )
 
@@ -243,11 +244,11 @@ func fillCveDetail(driver cvedb.DB, r *models.ScanResult) error {
 		return err
 	}
 	for _, d := range ds {
-		nvd := models.ConvertNvdJSONToModel(d.CveID, d.NvdJSON)
+		nvd := cvedict.ConvertNvdJSONToModel(d.CveID, d.NvdJSON)
 		if nvd == nil {
-			nvd = models.ConvertNvdXMLToModel(d.CveID, d.NvdXML)
+			nvd = cvedict.ConvertNvdXMLToModel(d.CveID, d.NvdXML)
 		}
-		jvn := models.ConvertJvnToModel(d.CveID, d.Jvn)
+		jvn := cvedict.ConvertJvnToModel(d.CveID, d.Jvn)
 
 		for cveID, vinfo := range r.ScannedCves {
 			if vinfo.CveID == d.CveID {
