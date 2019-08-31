@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"compress/gzip"
 
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 // ResultWriter Interface

@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	c "github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 // StdoutWriter write to stdout

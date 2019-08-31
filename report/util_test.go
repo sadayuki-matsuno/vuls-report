@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 	"github.com/future-architect/vuls/util"
 	"github.com/k0kubun/pp"
 )

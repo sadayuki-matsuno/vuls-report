@@ -18,6 +18,6 @@ require (
 	github.com/kotakanbe/go-cve-dictionary v0.3.1 // indirect
 	github.com/kotakanbe/goval-dictionary v0.2.2 // indirect
 	github.com/nlopes/slack v0.5.0 // indirect
-	github.com/sadayuki-matsuno/vuls-models v0.0.0-20190831024801-2c81efae9f3e // indirect
+	github.com/sadayuki-matsuno/vuls-models/models v0.0.0-20190831024801-2c81efae9f3e // indirect
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7 // indirect
 )

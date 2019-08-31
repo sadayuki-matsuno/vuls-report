@@ -26,7 +26,7 @@ import (
 
 	"github.com/cenkalti/backoff"
 	"github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 	"github.com/nlopes/slack"
 	"github.com/parnurzeal/gorequest"
 	log "github.com/sirupsen/logrus"

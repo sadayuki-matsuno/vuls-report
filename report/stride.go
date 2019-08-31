@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 // StrideWriter send report to Stride

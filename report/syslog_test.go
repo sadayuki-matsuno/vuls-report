@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 func TestSyslogWriterEncodeSyslog(t *testing.T) {

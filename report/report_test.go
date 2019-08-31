@@ -5,7 +5,7 @@ import (
 
 	"github.com/future-architect/vuls/config"
 
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 const defaultUUID = "11111111-1111-1111-1111-111111111111"

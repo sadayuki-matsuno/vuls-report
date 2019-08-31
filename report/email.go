@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 	"golang.org/x/xerrors"
 )
 

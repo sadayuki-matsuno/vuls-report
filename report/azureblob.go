@@ -28,7 +28,7 @@ import (
 	"golang.org/x/xerrors"
 
 	c "github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 // AzureBlobWriter writes results to AzureBlob

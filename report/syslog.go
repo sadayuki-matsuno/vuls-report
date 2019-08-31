@@ -25,7 +25,7 @@ import (
 	"golang.org/x/xerrors"
 
 	"github.com/future-architect/vuls/config"
-	"github.com/sadayuki-matsuno/vuls-models"
+	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
 // SyslogWriter send report to syslog
