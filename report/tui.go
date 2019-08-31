@@ -29,9 +29,9 @@ import (
 	"github.com/future-architect/vuls/alert"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/google/subcommands"
 	"github.com/gosuri/uitable"
 	"github.com/jroimartin/gocui"

@@ -34,9 +34,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/sts"
-	c "github.com/future-architect/vuls/config"
+	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/sadayuki-matsuno/vuls-config/util"
 	"golang.org/x/xerrors"
 )
 

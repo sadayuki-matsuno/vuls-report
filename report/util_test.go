@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/k0kubun/pp"
 )
 

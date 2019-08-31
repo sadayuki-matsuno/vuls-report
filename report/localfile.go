@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	c "github.com/future-architect/vuls/config"
+	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
 	"golang.org/x/xerrors"
 )

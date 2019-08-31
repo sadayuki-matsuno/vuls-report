@@ -33,7 +33,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"golang.org/x/xerrors"
 
-	c "github.com/future-architect/vuls/config"
+	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 

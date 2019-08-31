@@ -3,7 +3,7 @@ package report
 import (
 	"testing"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/sadayuki-matsuno/vuls-config/config"
 
 	"github.com/sadayuki-matsuno/vuls-models/models"
 )

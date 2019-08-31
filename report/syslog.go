@@ -24,7 +24,7 @@ import (
 	syslog "github.com/RackSec/srslog"
 	"golang.org/x/xerrors"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 

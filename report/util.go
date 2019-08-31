@@ -30,9 +30,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/future-architect/vuls/config"
+	"github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
-	"github.com/future-architect/vuls/util"
+	"github.com/sadayuki-matsuno/vuls-config/util"
 	"github.com/gosuri/uitable"
 	"github.com/olekukonko/tablewriter"
 	"golang.org/x/xerrors"

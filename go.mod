@@ -12,14 +12,18 @@ require (
 	github.com/Azure/azure-sdk-for-go v33.0.0+incompatible
 	github.com/BurntSushi/toml v0.3.1
 	github.com/RackSec/srslog v0.0.0-20180709174129-a4725f04ec91
-	github.com/aquasecurity/trivy v0.1.6 // indirect
+	github.com/aquasecurity/trivy v0.1.6
 	github.com/aws/aws-sdk-go v1.23.13
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/future-architect/vuls v0.8.5
 	github.com/google/subcommands v1.0.1
 	github.com/gosuri/uitable v0.0.3
+	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/uuid v0.0.0-20160311170451-ebb0a03e909c
 	github.com/jroimartin/gocui v0.4.0
+	github.com/k0kubun/pp v3.0.1+incompatible
+	github.com/knqyf263/go-deb-version v0.0.0-20190517075300-09fca494f03d
+	github.com/knqyf263/go-rpm-version v0.0.0-20170716094938-74609b86c936
 	github.com/knqyf263/gost v0.1.2
 	github.com/kotakanbe/go-cve-dictionary v0.3.1
 	github.com/kotakanbe/goval-dictionary v0.2.2
@@ -27,7 +31,9 @@ require (
 	github.com/nlopes/slack v0.5.0
 	github.com/olekukonko/tablewriter v0.0.2-0.20190607075207-195002e6e56a
 	github.com/parnurzeal/gorequest v0.2.15
-	github.com/sadayuki-matsuno/vuls-models v0.0.0-20190831031827-22bdd33b3d4b
+	github.com/sadayuki-matsuno/vuls-config v0.0.0-20190831051520-f427ddca9f2c
+	github.com/sadayuki-matsuno/vuls-models v0.0.0-20190831051724-bd249f9152cc
 	github.com/sirupsen/logrus v1.4.2
+	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 )

@@ -27,7 +27,7 @@ import (
 	storage "github.com/Azure/azure-sdk-for-go/storage"
 	"golang.org/x/xerrors"
 
-	c "github.com/future-architect/vuls/config"
+	c "github.com/sadayuki-matsuno/vuls-config/config"
 	"github.com/sadayuki-matsuno/vuls-models/models"
 )
 
